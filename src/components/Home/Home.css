@@ -1,0 +1,19 @@
+:root{
+    background-color: #101727;
+}
+
+.blur-circle1 {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+
+  background: #2184FF;
+  border-radius: 50%;
+  filter: blur(200px);
+
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+
+  z-index: -1;
+}

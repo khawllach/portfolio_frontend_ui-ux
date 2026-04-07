@@ -1,0 +1,118 @@
+.worklist{
+    margin-top: 150px;
+}
+
+.workpage{
+    position: relative;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+
+}
+.my-work{
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 72px;
+    margin: 0px;
+    padding: 0px; 
+}
+.sub-my-work{
+    font-size: 24px;
+    font-weight: 100;
+    word-spacing: 10px;
+    line-height: 32px;
+    margin: 0px;
+    padding: 0px;  
+}
+.works{
+    margin: 30px 0px;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+}
+.cards{
+    position: relative;
+    background-color: #17212F;
+    border-radius: 15px;
+    height: 270px;
+    width: 400px;
+}
+.photo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+}
+.content{
+    position: absolute;
+    bottom: 18%;
+    left: 4%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap: 5px;
+}
+.titlework{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 0px;
+    padding: 0px; 
+}
+.workdesc{
+    margin: 0px;
+    padding: 0px; 
+}
+.no-btns{
+    position: absolute;
+    bottom: 5%;
+    left: 4%;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    gap: 10px;
+}
+.no-btn{
+    box-sizing: border-box;
+    padding: 2px 12px;
+    color: #55E0FF;
+    border: 0.544218px solid #55E0FF;
+    box-shadow: 0px 0px 2.17687px 1.08844px #55E0FF;
+    border-radius: 10.70748px;
+    font-weight: 300;
+    font-size: 13.61905px;
+    line-height: 18px;
+    text-shadow: 0px 0px 2.17687px #55E0FF;
+    cursor: pointer;
+}
+
+.no-btn:hover{
+    box-shadow: 0px 0px 4.35374px 2.17687px #55E0FF;
+}
+.btnviewmywork-2{
+    padding: 10px 40px;
+    background: linear-gradient(to right, #2184FF,#02B8E1, #55E0FF);    
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    width: 150px;
+    position: absolute;
+    right: 0px; 
+    color: white;
+    z-index: 1000; /* VERY IMPORTANT */
+  
+}
+.btnviewmywork-2:hover{
+    box-shadow: 0px 0px 15px #55E0FF;
+}
+.button{
+    cursor: pointer;
+}
+
+

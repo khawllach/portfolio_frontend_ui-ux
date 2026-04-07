@@ -1,0 +1,76 @@
+:root{
+      font-family: 'Istok Web';
+    font-style: normal;
+}
+
+.me{
+    width: 150px;
+    border-radius: 5px;
+   
+}
+
+.imgprofile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.cercle{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: #02B8E1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow:
+    0 0 15px rgba(0, 140, 255, 0.4),
+    0 0 30px rgba(0, 140, 255, 0.2);
+    
+  transition: 0.3s ease;
+}
+
+.titleofmyjob{
+    color: aliceblue;
+}
+.title{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-weight: bolder;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 115px;
+}
+.subtitle{
+    margin: 0;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 52px;
+}
+.description{
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 33px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    gap: 25px;
+}
+
+.specialwords{
+    background: linear-gradient(to right, #2184FF,#02B8E1, #55E0FF);    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+}
+
+

@@ -1,0 +1,33 @@
+
+
+.btnviewmywork{
+    padding: 10px 40px;
+    background: linear-gradient(to right, #2184FF,#02B8E1, #55E0FF);    
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.btndwcv{
+    padding: 10px 30px;
+    background-color: transparent;
+    border: 1px solid #f6fbff;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.7);
+}
+.btndwcv:hover{
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 1);
+}
+.btnviewmywork:hover{
+    box-shadow: 0px 0px 15px #55E0FF;
+}
+
+
+.button{
+    border: none;
+    background-color: transparent;
+    color: #f6fbff;
+    font-size: 17px;
+}
