@@ -2,25 +2,6 @@
 
 A modern, responsive portfolio website built to showcase my frontend development and UI/UX design skills. The project focuses on creating a clean user experience, responsive layouts, and reusable React components.
 
----
-
-## 📸 Screenshots
-
-### 🏠 Home Page
-
-![Home](./screenshots/home.png)
-
-### 👤 About Section
-
-![About](./screenshots/about.png)
-
-### 💼 Projects Section
-
-![Projects](./screenshots/projects.png)
-
-### 📞 Contact Section
-
-![Contact](./screenshots/contact.png)
 
 ---
 
