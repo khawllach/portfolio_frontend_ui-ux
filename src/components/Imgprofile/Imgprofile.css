@@ -1,76 +1,101 @@
-:root{
-      font-family: 'Istok Web';
-    font-style: normal;
+:root {
+  font-family: "Istok Web";
+  font-style: normal;
 }
 
-.me{
-    width: 150px;
-    border-radius: 5px;
-   
+.me {
+  width: 50%;
+  height: 70%;
+  object-fit: cover;
+  border-radius: 20%;
+  position: absolute;
+}
+.me-clear {
+  z-index: 1;
+}
+.me-blur {
+  z-index: 2;
+  filter: blur(15px);
+  transform: scale(1.05);
+
+  mask-image: linear-gradient(
+    to bottom,
+    transparent 0%,
+    transparent 55%,
+    black 100%
+  );
+
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    transparent 0%,
+    transparent 55%,
+    black 100%
+  );
 }
 
-.imgprofile{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10px;
+.imgprofile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
 }
-.cercle{
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    background-color: #02B8E1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow:
-    0 0 15px rgba(0, 140, 255, 0.4),
+.cercle {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: #101727;
+  display: flex;
+  border: 4px solid #007acc;
+  justify-content: center;
+  align-items: center;
+  box-shadow:
+    0 0 15px rgba(0, 70, 192, 0.2),
     0 0 30px rgba(0, 140, 255, 0.2);
-    
+
   transition: 0.3s ease;
+  position: relative;
+  overflow: hidden;
 }
 
-.titleofmyjob{
-    color: aliceblue;
+.titleofmyjob {
+  color: aliceblue;
 }
-.title{
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-    font-weight: bolder;
-    font-weight: 700;
-    font-size: 80px;
-    line-height: 115px;
+.title {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  font-weight: bolder;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 115px;
 }
-.subtitle{
-    margin: 0;
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 52px;
+.subtitle {
+  margin: 0;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 52px;
 }
-.description{
-    font-size: 23px;
-    font-weight: 400;
-    line-height: 33px;
-}
-
-.buttons{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
-    gap: 25px;
+.description-profile {
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 33px;
 }
 
-.specialwords{
-    background: linear-gradient(to right, #2184FF,#02B8E1, #55E0FF);    
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    margin: 0;
+.buttons {
+  display: flex;
+  justify-content: row;
+  margin-top: 10px;
+  gap: 25px;
 }
 
-
+.specialwords {
+  background: linear-gradient(to right, #2184ff, #02b8e1, #55e0ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+}

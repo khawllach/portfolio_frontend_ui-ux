@@ -1,12 +1,12 @@
 import { Link, Route, Routes, useNavigate } from "react-router-dom";
 import About from "../About/About";
 import Bar from "../Bar/Bar";
-import Hackathons from "../Hackathons/Hackathons";
 import Imgprofile from "../Imgprofile/Imgprofile";
 import Skills from "../Skills/Skills";
 import Works from "../Works/Works";
 import "./Home.css";
 import Allwork from "../Allwork/Allwork";
+import AboutMe from "../Aboutme/Aboutme";
 
 const Home = () => {
   const navigate = useNavigate();
@@ -15,8 +15,8 @@ const Home = () => {
       <div className="blur-circle1"></div>
       <Imgprofile />
       <Skills />
+      <AboutMe />
       <Works />
-      <Hackathons />
       <About />
     </div>
   );

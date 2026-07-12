@@ -9,9 +9,9 @@ const Button = () => {
           <button className="button">View My Work</button>
         </AnchorLink>
       </div>
-      <div className="btndwcv">
-        <button className="button">Download CV</button>
-      </div>
+      <a href="/Cv.pdf" download="Khawla_CV.pdf">
+        <button className="btndwcv">Download CV</button>
+      </a>
     </div>
   );
 };

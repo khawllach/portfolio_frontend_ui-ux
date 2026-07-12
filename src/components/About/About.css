@@ -1,234 +1,154 @@
-.about-me{
-    margin-top: 150px;
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
+.about-me {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
 }
-.all{
-    display: flex;
-    flex-direction: row;
-    gap: 50px;
-    justify-content: end;
+.all {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
-.left{
-      display: flex;
-      flex-direction: column;
-      gap: 26px;
-   
-}
-.left-up{
-    background-color: aqua;
-    border-radius: 20px;
-    text-decoration: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
-    width: 700px;
-    height: 300px;
- /* Transparent glass color (from Figma) */
-  background: rgba(56, 81, 116, 0.3);
-
-  border-radius: 20px;
-
-  /* ✨ Glass effect */
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-
-  /* Subtle glass border */
-  border: 1px solid rgba(255, 255, 255, 0.2);
-
-  /* Depth + soft glow */
-  box-shadow:
-    0 8px 32px rgba(0, 0, 0, 0.2),
-    inset 0 1px 1px rgba(255, 255, 255, 0.25);
-
-}
-.title-left{
-    margin-right: 20px;
-    padding: 0px;
-    margin-top: 25px;
-    margin-bottom: 20px;
-}
-.title-left-down{
-    margin-right: 20px;
-    padding: 0px;
-    margin-top: 18px;
-    margin-bottom: 17px;
+.myimage {
+  width: 800px;
+  height: 500px;
 }
 
-.left-down{
-    background-color: red;
-    border-radius: 20px;
-    width: 700px;
-    height: 325px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 13px;
+.left {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  gap: 26px;
+  height: 100%;
+  background-color: #161e32;
+  padding: 45px;
+  justify-content: center;
+  border-radius: 50px;
+  box-shadow: 0px 0px 10px #307fff;
 
-     /* Transparent glass color (from Figma) */
-  background: rgba(56, 81, 116, 0.3);
-
-  border-radius: 20px;
-
-  /* ✨ Glass effect */
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-
-  /* Subtle glass border */
-  border: 1px solid rgba(255, 255, 255, 0.2);
-
-  /* Depth + soft glow */
-  box-shadow:
-    0 8px 32px rgba(0, 0, 0, 0.2),
-    inset 0 1px 1px rgba(255, 255, 255, 0.25);
-
+  background: linear-gradient(to right, #161e32, #101727);
 }
 
-.sub-title-left{
-    font-size: 16px;
-    margin: 0px;
-    padding: 0px;
+.corner {
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  border-color: #307fff;
 }
-.right{
-    background-color: blue;
-    width: 400px;
-    height: 650px;
-    border-radius: 20px;
-     /* Transparent glass color (from Figma) */
-  background: rgba(56, 81, 116, 0.3);
-
-  border-radius: 20px;
-
-  /* ✨ Glass effect */
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-
-  /* Subtle glass border */
-  border: 1px solid rgba(255, 255, 255, 0.2);
-
-  /* Depth + soft glow */
-  box-shadow:
-    0 8px 32px rgba(0, 0, 0, 0.2),
-    inset 0 1px 1px rgba(255, 255, 255, 0.25);
-
-}
- .info-row {
-      display: flex;
-      align-items: center;
-      margin-bottom: 18px;
-      flex-wrap: wrap;
-      gap: 6px;
-    }
-
-    .label {
-      min-width: 155px;
-      font-size: 16px;
-      font-weight: 700;
-      color: #d8f7ff;
-      text-shadow: 0 0 6px rgba(146, 240, 255, 0.75);
-    }
-
-    .value {
-      font-size: 16px;
-      color: #f4f4f4;
-    }
-
-    .contact-text {
-      font-size: 18px;
-      line-height: 1.5;
-      max-width: 310px;
-      margin-bottom: 22px;
-      color: #ffffff;
-    }
-
-    textarea {
-      width:80%;
-      height: 126px;
-      border: none;
-      outline: none;
-      border-radius: 22px;
-      background: #a7adb7;
-      padding: 20px 22px;
-      font-size: 17px;
-      color: #333;
-      margin-bottom: 12px;
-    }
-
-    textarea::placeholder {
-      color: #6b6b6b;
-    }
-
-    .send{
-        margin: 0px;
-        margin-bottom: 15px;
-        padding: 5px 40px;
-    background: linear-gradient(to right, #2184FF,#02B8E1, #55E0FF);    
-    border: none;
-    border-radius: 20px;
-    cursor: pointer;
-    transition: 0.3s ease;
-    }
-
-.SM{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    font-size: 18px;
-    margin-left: 24px;
-
+.top-left {
+  top: -25px;
+  left: -25px;
+  border-top: 3px solid #307fff;
+  border-left: 3px solid #307fff;
 }
 
-.insta{
-    display: flex;
-    flex-direction: row;
-    gap: 24px;
-    align-items: center;
-}
-.linkedin{
-    display: flex;
-    flex-direction: row;
-    gap: 24px;
-    align-items: center;
-}  
-.github{
-    display: flex;
-    flex-direction: row;
-    gap: 24px;
-    align-items: center;
-}
-.behance{
-    display: flex;
-    flex-direction: row;
-    gap: 24px;
-    align-items: center;
+.top-right {
+  top: -25px;
+  right: -25px;
+  border-top: 3px solid #307fff;
+  border-right: 3px solid #307fff;
 }
 
-.icons{
-    width: 47px;
-    height: 30px;
-    background-color: #6b6b6b;
-    width: 100px;
-    height: 80px;
-    border-radius: 20px;
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    box-shadow: #f4f4f4 0px 0px 10px, inset rgba(255, 255, 255, 0.25) 0px 1px 1px;
-    cursor: pointer;
-}
-.icons:hover{
-    box-shadow: #f4f4f4 0px 0px 20px, inset rgba(255, 255, 255, 0.25) 0px 1px 1px;
-    transition: 0.3s ease;
+.bottom-left {
+  bottom: -25px;
+  left: -25px;
+  border-bottom: 3px solid #307fff;
+  border-left: 3px solid #307fff;
 }
 
-.title-sm{
-    cursor: pointer;
-}
-.title-sm:hover{
-    text-shadow: 0 0 6px rgba(146, 240, 255, 0.75);
-    transition: 0.3s ease;
-
+.bottom-right {
+  bottom: -25px;
+  right: -25px;
+  border-bottom: 3px solid #307fff;
+  border-right: 3px solid #307fff;
 }
 
-    
+.title-left {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 52px;
+  margin-bottom: 10px;
+  padding: 0px;
+}
+.info-row {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.label {
+  font-size: 13px;
+  font-weight: 580;
+  margin: 0px;
+  padding: 0px;
+  color: #307fff;
+}
+.sub-title-left {
+  font-size: 16px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.value {
+  font-size: 16px;
+  color: #f4f4f4;
+}
+
+.contact-text {
+  font-size: 18px;
+  line-height: 1.5;
+  max-width: 310px;
+  margin-bottom: 22px;
+  color: #ffffff;
+}
+
+textarea::placeholder {
+  color: #6b6b6b;
+}
+
+.btnviewmywork {
+  margin-top: 20px;
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 42%;
+}
+.social {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+
+  align-items: center;
+}
+.icon-container {
+  width: 50px;
+  height: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.email {
+  background-color: #161e32;
+  height: 60px;
+  border-radius: 30px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  cursor: pointer;
+}
+.email:hover {
+  box-shadow: 0px 0px 10px #307fff;
+}
+.email-phone {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

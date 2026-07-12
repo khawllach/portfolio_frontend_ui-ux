@@ -10,7 +10,6 @@ import { FaEnvelope } from "react-icons/fa6";
 
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import About from "./components/About/About";
-import Hackathons from "./components/Hackathons/Hackathons";
 import Works from "./components/Works/Works";
 import Skills from "./components/Skills/Skills";
 import Imgprofile from "./components/Imgprofile/Imgprofile";

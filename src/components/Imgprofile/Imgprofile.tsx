@@ -6,7 +6,8 @@ const Imgprofile = () => {
   return (
     <div className="imgprofile" id="home">
       <div className="cercle">
-        <img src={me} alt="" className="me" />
+        <img src={me} alt="" className="me me-clear" />
+        <img className="me me-blur" src={me} alt=""></img>
       </div>
       <div className="titleofmyjob">
         <p className="title">
@@ -18,7 +19,7 @@ const Imgprofile = () => {
           <span className="specialwords">Frontend Dev</span>
         </h4>
 
-        <p className="description">
+        <p className="description-profile">
           I Create a beautiful , responsive web experiences using Modern
           Technologies. <br /> Passionate about clean code and user-centered
           design <br />

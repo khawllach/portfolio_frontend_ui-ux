@@ -1,53 +1,80 @@
-:root{
-    font-family: 'Istok Web';
-    font-style: normal;
-    color: aliceblue;
+:root {
+  font-family: "Istok Web";
+  font-style: normal;
+  color: aliceblue;
 }
-.skills{
-    margin-top: 150px;
-    display: flex;
-    flex-direction: column;
-    gap: 80px;
+.skills {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
 }
-.pagetitle{
-    font-size: 70px;
-    font-weight: 700;
-    line-height: 72px;
-}
-.desc{
-    display: flex;
-    flex-direction: row;
-    gap: 25px;
-}
-.frontend{
-    padding: 10px 20px;
-    border-radius: 25px;
-    background: rgba(255, 255, 255, 0.1); /* transparent */
-  backdrop-filter: blur(3px); /* blur effect */
-  -webkit-backdrop-filter: blur(10px);
-
-  border: 1px solid rgba(255, 255, 255, 0.2);
-
-
-}
-.design{
-     padding: 10px 20px;
-    border-radius: 25px;
-    background: rgba(255, 255, 255, 0.1); /* transparent */
-  backdrop-filter: blur(3px); /* blur effect */
-  -webkit-backdrop-filter: blur(10px);
-
-  border: 1px solid rgba(255, 255, 255, 0.2);
+.pagetitle {
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 72px;
 }
 
-.subtitle{
-    background: linear-gradient(to right, #2184FF,#02B8E1, #55E0FF);    
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-weight: bold;
-    font-size: 23px;
+.skillscontainer {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  background-color: #161e32;
+  width: 200px;
+  height: 184px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 15px #2184ff;
+}
+.skillscontainer:hover {
+  box-shadow: 0px 0px 30px #2184ff;
+}
+.skillscontainer:hover .skillblock {
+  box-shadow: 0px 0px 30px #2184ff;
 }
 
-.skildesc{
-    font-size: 18px;
+.skillblock {
+  display: flex;
+  justify-content: center;
+  background-color: aliceblue;
+  width: 35px;
+  padding: 8px;
+  border-radius: 10px;
+  background: linear-gradient(to bottom, #007acc, #003d66);
+  transition: 0.3s ease;
+  position: absolute;
+  top: 40px;
+}
+
+.skillname {
+  margin: 0;
+  position: absolute;
+  top: 90px;
+  font-weight: 500;
+}
+
+.rateskill {
+  width: 77%;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  align-items: center;
+  top: 70%;
+}
+
+.skillratingbar {
+  width: 100%;
+  background-color: #b5b5b5;
+  text-align: center;
+  color: white;
+  border-radius: 20px;
+}
+.bar-1 {
+  width: 90%;
+  height: 7px;
+  background: linear-gradient(to right, #007acc, #003d66);
+  border-radius: 20px;
+}
+.ratevalue {
+  color: #003d66;
 }
