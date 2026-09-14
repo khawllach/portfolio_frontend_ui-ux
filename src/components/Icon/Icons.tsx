@@ -40,7 +40,7 @@ export const icons = {
   react: (
     <svg
       width="120"
-      height="120"
+      height="20"
       viewBox="0 0 120 120"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -249,8 +249,8 @@ export const icons = {
 
   github: (
     <svg
-      width="20"
-      height="20"
+      width="70"
+      height="70"
       viewBox="0 0 20 20"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

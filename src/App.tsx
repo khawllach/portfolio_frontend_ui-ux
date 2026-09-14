@@ -1,20 +1,9 @@
-import { FaGithub, FaTwitter } from "react-icons/fa6";
-import "./App.css";
-import Home from "./components/Home/Home";
-import Bar from "./components/Bar/Bar";
-import { useRef } from "react";
-import { FaCode } from "react-icons/fa6";
-import { FaBriefcase } from "react-icons/fa6";
-import { FaUsers } from "react-icons/fa6";
-import { FaEnvelope } from "react-icons/fa6";
+import Home from "./components/Home.tsx";
+import Bar from "./components/Bar.tsx";
 
-import AnchorLink from "react-anchor-link-smooth-scroll";
-import About from "./components/About/About";
-import Works from "./components/Works/Works";
-import Skills from "./components/Skills/Skills";
-import Imgprofile from "./components/Imgprofile/Imgprofile";
+import "./App.css";
+
 import { Route, Routes } from "react-router-dom";
-import Allwork from "./components/Allwork/Allwork";
 
 function App() {
   return (
@@ -22,8 +11,6 @@ function App() {
       <Bar />
       <Routes>
         <Route path="/" element={<Home />} /> {/* Home page */}
-        <Route path="/about" element={<About />} />
-        <Route path="/allwork" element={<Allwork />} />
       </Routes>
     </div>
   );
