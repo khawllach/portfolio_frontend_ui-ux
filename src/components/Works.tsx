@@ -87,7 +87,7 @@ const Works = () => {
               className="w-[80%] md:w-[35%] md:h-[35%]   rounded-lg hover:scale-110 transition-transform duration-200 ease-in brightness-50"
             />
 
-            <div className="flex flex-col space-y-6 md:space-y-8 lg:space-y-10">
+            <div className="flex flex-col space-y-6 md:space-y-3 lg:space-y-10">
               <div className="p-3  ">
                 <div className="flex flex-col  space-y-1 text-left">
                   <h4 className="text-xl font-bold md:text-[17px] lg:text-[30px]">
