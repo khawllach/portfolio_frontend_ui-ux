@@ -71,6 +71,7 @@ npm run dev
 **Khawla Chabane**
 
 GitHub: https://github.com/khawllach
+LinkedIn: https://www.linkedin.com/in/khawla-chabanne-8bb497260/
 
 
 ---
