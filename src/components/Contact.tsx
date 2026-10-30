@@ -55,7 +55,7 @@ const About = () => {
             <div className="flex flex-row justify-center items-center  space-x-5 mt-10 md:mt-2">
               <div>
                 <a
-                  href="https://github.com/yourusername"
+                  href="https://github.com/khawllach"
                   target="_blank"
                   rel="noreferrer"
                   className="w-[50px] h-[50px] flex justify-center items-center  border-2 border-[#007acc] rounded-xl"
